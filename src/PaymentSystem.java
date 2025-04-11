@@ -12,7 +12,7 @@ public class PaymentSystem {
 
         PaymentProcessor paypalProcessor = new PaymentProcessor(paypal);
         System.out.println(paypalProcessor.makePayment(1400));
-        System.out.println(paypalProcessor.issueRefund(5000));
+        System.out.println(paypalProcessor.issueRefund(500));
 
 
         System.out.println("\nDynamic Switching Demo:");
