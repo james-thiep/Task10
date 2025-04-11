@@ -10,11 +10,11 @@ class PayPalGateway implements PaymentGateway {
 
     @Override
     public String processPayment(double amount) {
-        return "Processing UGX" + amount + " via PayPal (ClientID: " + clientId + ")";
+        return "Processing USD" + amount + " via PayPal (ClientID: " + clientId + ")";
     }
 
     @Override
     public String refundPayment(double amount) {
-        return "Refunding UGX" + amount + " via PayPal";
+        return "Refunding USD" + amount + " via PayPal";
     }
 }
