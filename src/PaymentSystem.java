@@ -6,7 +6,7 @@ public class PaymentSystem {
 
 
         PaymentProcessor stripeProcessor = new PaymentProcessor(stripe);
-        System.out.println(stripeProcessor.makePayment(99000));
+        System.out.println(stripeProcessor.makePayment(9900));
         System.out.println(stripeProcessor.issueRefund(25000));
 
 
