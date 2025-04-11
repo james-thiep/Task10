@@ -8,11 +8,11 @@ class StripeGateway implements PaymentGateway {
 
     @Override
     public String processPayment(double amount) {
-        return "Processing UGX" + amount + " via Stripe (Key: " + apiKey + ")";
+        return "Processing USD" + amount + " via Stripe (Key: " + apiKey + ")";
     }
 
     @Override
     public String refundPayment(double amount) {
-        return "Refunding UGX" + amount + " via Stripe";
+        return "Refunding USD" + amount + " via Stripe";
     }
 }
