@@ -11,7 +11,7 @@ public class PaymentSystem {
 
 
         PaymentProcessor paypalProcessor = new PaymentProcessor(paypal);
-        System.out.println(paypalProcessor.makePayment(14000));
+        System.out.println(paypalProcessor.makePayment(1400));
         System.out.println(paypalProcessor.issueRefund(5000));
 
 
